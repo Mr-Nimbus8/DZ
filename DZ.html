@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b88caf3b4a.js" crossorigin="anonymous"></script>
+    <title>Моя страница</title>
+    <style>
+     .fa-solid {
+    background: linear-gradient(rgb(132, 184, 207), rgb(173, 29, 10));
+       color: transparent;
+       -webkit-background-clip: text;
+       background-clip: text;
+     }
+     .box {
+       height: 300px;
+       background-color: rgb(12, 95, 27);
+     }
+     .news {
+       background-image: url(img/scale_1200.webp);
+       background-size: cover;
+       height: 20rem;
+       background-position: center;
+     }
+     .news-box {
+       margin: auto;
+       max-width: 15rem;
+       height: auto;
+       border: 1px solid rgb(20, 80, 144);
+       padding: 0.5rem;
+       border-radius: 5px;
+       background-color: rgba(67, 77, 7, 0.55);
+       box-shadow: 0 0 10px 10px rgba(182, 58, 130, 0.45);
+     }
+     .fa-brands {
+       background: linear-gradient(rgb(128, 169, 6), rgb(233, 42, 185));
+       color: transparent;
+       -webkit-background-clip: text;
+       background-clip: text;
+     }
+   </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(230, 233, 55);">
+      <a class="navbar-brand" href="#">Главная</a>
+      <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
+        aria-label="Переключатель навигации">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Цены <span class="sr-only">(текущая)</span></a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" href="traffic_light.html">Товары</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" href="Bootstrap.html">Отзывы</a>
+          </li>
+         
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Поиск">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+        </form>
+      </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/kosmonavt_skafandr_raznotsvetnyj_123724_1280x800.jpg" class="d-block w-100" alt="Крема">
+        </div>
+        <div class="carousel-item">
+          <img src="img/plyazh_tropiki_more_pesok_palmy_zakat_84729_1280x800.jpg" class="d-block w-100" alt="Масла">
+        </div>
+        <div class="carousel-item">
+          <img src="img/tigr_lapy_dvizhenie_273189_1280x800.jpg" class="d-block w-100" alt="Лечебные травы">
+        </div>
+      </div>
+      <a 
+        class="carousel-control-prev"   href="#carouselExampleControls" 
+        role="button"   
+        data-slide="prev">
+        <span class="carousel-control-prev-icon"aria-hidden="true"></span>
+        <span class="sr-only">Предыдущий</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Следующий</span>
+      </a>
+    </div>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-4 p-5"><div class="card text-center border-primary py-5 bg-warning"><a href="traffic_light.html"><i class="fa-solid fa-traffic-light fa-10x"></i></a></div></div>
+        <div class="col-md-4 p-5"><div class="card text-center border-primary py-5 bg-warning"><i class="fa-solid fa-robot fa-10x"></i></div></div>
+        <div class="col-md-4 p-5"><div class="card text-center border-primary py-5 bg-warning"><i class="fa-solid fa-mug-hot fa-10x"></i></div></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 p-4 border"><div class="box"></div></div>
+        <div class="col-md-4 p-4 border"><div class="box"></div></div>
+        <div class="col-md-4 p-4 border"><div class="box"></div></div>
+        
+      </div>
+    </div>
+    
+    <div class="container-fluid mt-5 d-flex news">
+      <div class="news-box">Аромат - важная часть стильного образа, поэтому каждый из нас стремится найти самовыражение в том аромате, который сопровождает его в течение дня. В противовес массовой индустрии, которая предлагает потребителям типовые, стандартные, безликие, предсказуемые парфюмы, мы делаем ставку на оригинальность. Необычные парфюмерные воды, которые подходят как для женщин, так и для мужчин, открывают новую линию «Альганики» из 7 ароматов.</div>
+    </div>
+
+    <div class="container">
+      <h2 class="text-center">Связаться с нами</h2>
+      <div class="row">
+        <div class="col-md-5">
+          <h3>Контакты:</h3>
+          <h5>Адрес:</h5>
+          <p>г. Москва, ул. Шоссе Энтузиастов, д. 88, стр. 4</p>
+          <h5>Телефон</h5>
+          <a href="tel:+74957319922">+7 (495) 371-22-99</a>
+          <h5>E-mail</h5>
+          <a href="mailto:spa-katalog@yandex.ru">spa-katalog@yandex.ru</a>
+          <h5>График работы</h5>
+          <p>Понедельник - пятница: с 8-00 по 20-00, суббота,воскресенье: с 8-00 по 16-00 .</p>
+        </div>
+        <div class="col-md-7 pt-2">
+          <form action="">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Имя">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" placeholder="Сообщение"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" class="btn btn-danger">
+            </div>
+          </form>
+          <div class="container">
+            <div class="row">
+              <div class="box-s col-2"><a href="https://vk.com/showchicken"><i class="fa-brands fa-vk fa-3x"></i></a></div>
+              <div class="box-s col-2"><i class="fa-brands fa-facebook fa-3x"></i></div>
+              <div class="box-s col-2"><i class="fa-brands fa-twitter fa-3x"></i></div>
+              <div class="box-s col-2"><i class="fa-brands fa-instagram fa-3x"></i></div>
+              <div class="box-s col-2"><i class="fa-brands fa-odnoklassniki fa-3x"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A64027b9f935f5a443d8cef798774fdbe6a05a194e4b4d693fccbd7c27df0afd4&amp;width=100%25&amp;height=545&amp;lang=ru_RU&amp;scroll=true"></script>
+    
+
+    <footer>
+      <div class="container py-5 text-center">© <script>document.write(new Date().getFullYear())</script> Все права защищены</div>
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  </body>
+</html>
